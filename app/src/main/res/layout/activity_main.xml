@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondActivity">
+
+    <Space android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Sadeeq Rahman"
+            android:padding="20dp"
+            android:id="@+id/name"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Android Developer"
+            android:padding="20dp"
+            android:id="@+id/designation"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Encoder Technolgoy Solution"
+            android:padding="20dp"
+            android:id="@+id/company"/>
+
+    <Space android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pass_object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:text="Pass Object"/>
+    <Space android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"/>
+
+</LinearLayout>
